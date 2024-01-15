@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    min-height: 150px;
+
+    .headerDiv {
+        width: 100%;
+        min-height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .iconsocialmedia {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 7px;
+
+            .iconmedia {
+                width: 30px;
+                min-height: 30px;
+                border-radius: 50%;
+                background-color: black;
+
+                i {
+                    width: 100%;
+                    min-height: 30px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: 0.6s;
+
+                    &:hover {
+                        color: red;
+                    }
+                }
+            }
+        }
+
+        .emailadress {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 14px;
+
+            .number {
+                width: 30%;
+
+                i {
+                    width: 13%;
+                    color: #F16821;
+
+                    &:hover {
+                        color: #9D3C0B;
+                    }
+                }
+            }
+
+            .email {
+                width: 36%;
+
+                i {
+                    width: 13%;
+                    color: #F16821;
+                    transition: 0.6s;
+
+                    &:hover {
+                        color: #9D3C0B;
+                    }
+                }
+            }
+        }
+    }
+
+    .nav {
+        width: 100%;
+        min-height: 75px;
+        background-color: white;
+        z-index: 1;
+        position: relative;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        nav {
+            .logo {
+                color: black;
+                font-size: 40px;
+                line-height: 48px;
+                font-weight: 900;
+                font-family: sans-serif;
+
+                span {
+                    color: #F16821;
+                }
+            }
+
+            .menu {
+                width: 100%;
+                min-height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+
+                .list {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                    gap: 20px;
+
+                    li {
+                        a {
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: black;
+                            line-height: 27px;
+                            transition: 0.6s;
+
+                            &:hover {
+                                color: #F16821;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

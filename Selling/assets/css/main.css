@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 150px;
+}
+header .headerDiv {
+  width: 100%;
+  min-height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .headerDiv .iconsocialmedia {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 7px;
+}
+header .headerDiv .iconsocialmedia .iconmedia {
+  width: 30px;
+  min-height: 30px;
+  border-radius: 50%;
+  background-color: black;
+}
+header .headerDiv .iconsocialmedia .iconmedia i {
+  width: 100%;
+  min-height: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.6s;
+}
+header .headerDiv .iconsocialmedia .iconmedia i:hover {
+  color: red;
+}
+header .headerDiv .emailadress {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 14px;
+}
+header .headerDiv .emailadress .number {
+  width: 30%;
+}
+header .headerDiv .emailadress .number i {
+  width: 13%;
+  color: #F16821;
+}
+header .headerDiv .emailadress .number i:hover {
+  color: #9D3C0B;
+}
+header .headerDiv .emailadress .email {
+  width: 36%;
+}
+header .headerDiv .emailadress .email i {
+  width: 13%;
+  color: #F16821;
+  transition: 0.6s;
+}
+header .headerDiv .emailadress .email i:hover {
+  color: #9D3C0B;
+}
+header .nav {
+  width: 100%;
+  min-height: 75px;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .nav nav .logo {
+  color: black;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+header .nav nav .logo span {
+  color: #F16821;
+}
+header .nav nav .menu {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+header .nav nav .menu .list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+header .nav nav .menu .list li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  line-height: 27px;
+  transition: 0.6s;
+}
+header .nav nav .menu .list li a:hover {
+  color: #F16821;
+}
+
+#shop-with-us {
+  width: 100%;
+  min-height: 500px;
+  background-image: url(/assets/images/hero_2\ \(2\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+#shop-with-us .width {
+  background-color: rgba(0, 0, 0, 0.452);
+  width: 100%;
+  min-height: 500px;
+}
+#shop-with-us .width .lorem-ipsum {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+#shop-with-us .width .lorem-ipsum h1 {
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 96px;
+  color: white;
+}
+#shop-with-us .width .lorem-ipsum p {
+  width: 55%;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  color: white;
+  min-height: 100px;
+}
+#shop-with-us .width .lorem-ipsum .button {
+  gap: 10px;
+}
+#shop-with-us .width .lorem-ipsum .button button {
+  background-color: white;
+  border-radius: 0px;
+  border-color: white;
+  cursor: pointer;
+  padding: 15px 25px 15px 25px;
+  color: black;
+  font-size: 12px;
+  font-weight: 900;
+  transition: 0.6;
+}
+#shop-with-us .width .lorem-ipsum .button button:hover {
+  background-color: transparent;
+  color: white;
+  transition: 0.6;
+}
+#shop-with-us .width .lorem-ipsum .button .now {
+  background-color: transparent;
+  padding: 15px 25px 15px 25px;
+  cursor: pointer;
+  border-color: white;
+  color: white;
+  font-size: 12px;
+  font-weight: 900;
+  border-radius: 0px;
+  transition: 0.6;
+}
+#shop-with-us .width .lorem-ipsum .button .now:hover {
+  color: black;
+  background-color: white;
+  transition: 0.6;
+}
+
+#popular-products {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#popular-products .popular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#popular-products .popular span {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #ADB5BD;
+}
+#popular-products .popular h3 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  color: #000000;
+}
+#popular-products .popular p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #ADB5BD;
+  width: 45%;
+  text-align: center;
+}
+
+#about-Us {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#about-Us .image {
+  width: 100%;
+  min-height: 500px;
+  background-image: url(/assets/images/about_1\ \(1\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+#about-Us .image .cart {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  min-height: 500px;
+  width: 100%;
+}
+#about-Us .image .cart .merchant {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #46DDB0;
+  flex-direction: column;
+  width: 60%;
+  min-height: 100px;
+}
+#about-Us .image .cart .merchant h2 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  color: white;
+}
+#about-Us .image .cart .merchant h6 {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  color: white;
+}
